@@ -7,7 +7,9 @@ const BrowserWindow = electron.BrowserWindow
 const path = require('path')
 const url = require('url')
 
-const lark = require('lark_js_ffi')
+const sdk = require('lark_js_ffi')
+const test = require('lark_js_ffi/test.js')
+test.main()
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.

@@ -16,7 +16,13 @@
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
-  "dependencies": {
+    "dependencies": {
+    "ffi": "git+https://github.com/king6cong/node-ffi/",
+    "getmac": "^1.2.1",
+    "protobufjs": "^6.6.5",
+    "ref": "^1.3.4",
+    "ref-array": "^1.2.0",
+    "ref-struct": "^1.1.0",
     "lark_js_ffi": "file:../lark_js_ffi"
   },
   "devDependencies": {
