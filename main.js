@@ -8,6 +8,8 @@ const path = require('path')
 const url = require('url')
 
 const sdk = require('lark_js_ffi')
+// window.sdk = sdk
+
 const test = require('lark_js_ffi/test.js')
 test.main()
 
